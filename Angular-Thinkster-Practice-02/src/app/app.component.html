@@ -5,11 +5,16 @@
   <dd class="col-sm-9">{{ favFlop.title }}</dd>
 
   <dt class="col-sm-3">Year Released</dt>
-  <dd class="col-sm-9">{{favFlop.yearReleased}}</dd>
+  <dd class="col-sm-9">{{ favFlop.yearReleased }}</dd>
 
   <dt class="col-sm-3">Rating</dt>
-  <dd class="col-sm-9">{{favFlop.rating}}</dd>
+  <dd class="col-sm-9">{{ favFlop.rating }}</dd>
 
   <dt class="col-sm-3">Imdb link</dt>
-  <dd class="col-sm-9"><a href="https://imdb.com/">IMDB</a></dd>
+  <!--
+   my way
+    <dd class="col-sm-9"><a href="https://imdb.com/">IMDB</a></dd> 
+  -->
+  <!-- Actual way -->
+  <dd class="col-sm-9"><a [href]="favFlop.idbm">IMDB</a></dd>
 </dl>
