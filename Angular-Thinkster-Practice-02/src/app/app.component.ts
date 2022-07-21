@@ -12,5 +12,6 @@ export class AppComponent {
     title: 'Star Wars',
     yearReleased: 1998,
     rating: 5,
+    idbm: 'https://imdb.com/',
   };
 }
